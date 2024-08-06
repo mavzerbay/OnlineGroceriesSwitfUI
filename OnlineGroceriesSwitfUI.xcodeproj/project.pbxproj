@@ -27,6 +27,9 @@
 		B6E609E32C610CC800D039FD /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6E609E22C610CC800D039FD /* LoginView.swift */; };
 		B6E609E52C610FEC00D039FD /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6E609E42C610FEC00D039FD /* MainViewModel.swift */; };
 		B6E609E72C6110C100D039FD /* LineTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6E609E62C6110C100D039FD /* LineTextField.swift */; };
+		B6E609E92C625DCF00D039FD /* ServiceCall.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6E609E82C625DCF00D039FD /* ServiceCall.swift */; };
+		B6E609EB2C6263E600D039FD /* Globs.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6E609EA2C6263E600D039FD /* Globs.swift */; };
+		B6E609EE2C6266FE00D039FD /* UIKitExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6E609ED2C6266FE00D039FD /* UIKitExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,6 +73,9 @@
 		B6E609E22C610CC800D039FD /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		B6E609E42C610FEC00D039FD /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
 		B6E609E62C6110C100D039FD /* LineTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineTextField.swift; sourceTree = "<group>"; };
+		B6E609E82C625DCF00D039FD /* ServiceCall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceCall.swift; sourceTree = "<group>"; };
+		B6E609EA2C6263E600D039FD /* Globs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Globs.swift; sourceTree = "<group>"; };
+		B6E609ED2C6266FE00D039FD /* UIKitExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIKitExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +127,7 @@
 		B6E609972C60F19900D039FD /* OnlineGroceriesSwitfUI */ = {
 			isa = PBXGroup;
 			children = (
+				B6E609EC2C6266E800D039FD /* Common */,
 				B6E609CF2C60F52100D039FD /* UICommon */,
 				B6E609CE2C60F50200D039FD /* ViewModel */,
 				B6E609CD2C60F4E500D039FD /* Model */,
@@ -201,6 +208,8 @@
 				B6E609D72C61024300D039FD /* RoundButton.swift */,
 				B6E609DC2C61089E00D039FD /* CountryPickerUI.swift */,
 				B6E609E62C6110C100D039FD /* LineTextField.swift */,
+				B6E609E82C625DCF00D039FD /* ServiceCall.swift */,
+				B6E609EA2C6263E600D039FD /* Globs.swift */,
 			);
 			path = UICommon;
 			sourceTree = "<group>";
@@ -213,6 +222,14 @@
 				B6E609E22C610CC800D039FD /* LoginView.swift */,
 			);
 			path = Login;
+			sourceTree = "<group>";
+		};
+		B6E609EC2C6266E800D039FD /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				B6E609ED2C6266FE00D039FD /* UIKitExtension.swift */,
+			);
+			path = Common;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -359,10 +376,13 @@
 				B6E609DD2C61089E00D039FD /* CountryPickerUI.swift in Sources */,
 				B6E609E72C6110C100D039FD /* LineTextField.swift in Sources */,
 				B6E609E32C610CC800D039FD /* LoginView.swift in Sources */,
+				B6E609EB2C6263E600D039FD /* Globs.swift in Sources */,
 				B6E609D82C61024300D039FD /* RoundButton.swift in Sources */,
 				B6E609992C60F19900D039FD /* OnlineGroceriesSwitfUIApp.swift in Sources */,
+				B6E609EE2C6266FE00D039FD /* UIKitExtension.swift in Sources */,
 				B6E609D62C60F79A00D039FD /* UIExtension.swift in Sources */,
 				B6E609D22C60F55B00D039FD /* WelcomeView.swift in Sources */,
+				B6E609E92C625DCF00D039FD /* ServiceCall.swift in Sources */,
 				B6E609DA2C6102E500D039FD /* SignInView.swift in Sources */,
 				B6E609E52C610FEC00D039FD /* MainViewModel.swift in Sources */,
 			);
